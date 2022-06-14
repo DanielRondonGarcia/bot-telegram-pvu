@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "stalwart-cable-327515",
+    "private_key_id": "df685b4dd69ba65427820469c1eb5727ca4afd90",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDYtmTC/vhEDwg6\nlhA31QOLpweUA3WeiH0ZBJxlHozXDQPTkYtZbNOSQ3KHSLB58IaCuaMKq+wgourG\nIzP5xJApSx+76l9XKcY0BxI8+2YvJoXk2TDCH+80aAT95pXsO2vif5HW5jwmiF4Y\nVXLVhAdHWeQgqrzZKIIqJuun4KC1kxWkU3gd4Mja6oMC4X2kEY/KIUbZztAsHlO7\nGTnx2z0XFTu+S8iIyHeyE4HS7qU1a331kpGvtuqmVYdf0bSsQ6yIH6b6FPfHaxeQ\n+fMJMUQTDJCyjvOd4wrdBoJyyFiXZEhQJqnbQmBPnmiZtBfDBR2dFioAVjEQx/+h\nsJYnksMJAgMBAAECgf8yAyhqQSKGTD3IF47TBpRaFe/2WM8F/XUSZp2Sy0A+VUBA\nP55jSA3BVWBmsGrljNxgysKZht8HTMeZK6BWmPaNrkiizqyWj/tWLQaf3W4gORKe\nLDDDNBK15CKoenMHmI5JLLGRHQYKzO5d7A5j0TuR+vjCv/UTIsTuXEZW53rS3GDe\nWB4LiADw3I8qt7rRCT1Rg8SG6zKb9LbX1EXYAfj+rx1YJGDD4HAInKTYiViHAzWa\nHGV6UEArC8/X3Ghz2dBOSTzMXSnA56WVJQc/OSUBkHmeFgCT7saRSbUjGoPzwNqC\ndazW4x63Gp++9Eqer+bIYvnc1xWK/2wm4oGD2hcCgYEA8xcPRoQJHscXxnRi5/FR\n3G9V0++ZsYyPFD4fK9mN2CHH7QnE98gaBubCtp0WMpjqlqnZtw0/s5LsBzziaLtK\nrYPXknfIrWIMRWCjHf+VQQz67wbK5xvPO5CnbD8ZEUDcPJyEg3qaWYUBTql9tpiG\niWVnrVgoZn5akM8OT8PO7r8CgYEA5Di3XAHWEXiDkpicrAlbeDO0QLSPuZgT5WS4\nFMt5kgoIDByRAGdA40m7GIdiB5HW4EzCCCI+a0qTRBxRuKbe5HpRPchlNcZQUIRN\n2oNXLoTDUkDvPKZUdjiY0S/c/GKIyeRfxNfN2GABlAPJrAf91BkmZWCCaJ+qX/pe\nP/K4iDcCgYAEaBKa0KHpsOo5arqwQaueN1Zy9RDwKwAc+dNO1C7CEDqzjU3IwBPY\ntC4raUWRvTvjZ0jPDKpu8ubcarof8+UyqAUsXoeAvRpD17CdRpjKCRYzZwgekF59\nUe33BF3L9kUHxD6Ss5JAtSyE5IWm3bTyoKf0eHijAv9ZSKeVwpLpuQKBgQDL7qpa\nOwHQxsG7g0esqwfjV0Bg+Xfcvjo5J1Ees9vEVdZvDC++DoX7E+1ts7wzS2yZLb3M\nitz//rmtiSi1Ode+jlZ+QM2/yaAG8tKmyepjlRr8Ky4cIf0jTtuvQXfUxy+4SKwT\nN0unZ9LBMslJQjLdDkQzHpQpbVNPRGhn+DpQ7QKBgFjSBueddWojM969KYmtPp9E\nAfpIqHcS5i9Gqrk9pMtwSyEFHIz65elNAl4oykXR9CDnWO56KE+cv6UwF/zUekaZ\ntk1IFDzgQj4l4vY0oCg/optdtYbl69xYJS6ylykBDspZZuUeYE+lvxFGM1xDdL3z\nCRa3pZmfyXjuDthZ5i2T\n-----END PRIVATE KEY-----\n",
+    "client_email": "datapvu@stalwart-cable-327515.iam.gserviceaccount.com",
+    "client_id": "110707326515945313468",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datapvu%40stalwart-cable-327515.iam.gserviceaccount.com"
+}

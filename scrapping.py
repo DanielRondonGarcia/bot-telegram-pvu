@@ -64,17 +64,17 @@ def messsage_info(bearer):
         else:
             bandera_time_water_minutes=False     
         if planta['cuervo'] != None: 
-            alerta = f" ¡ATENCIÓN! una planta tiene un cuervo hace: {str(datetime.utcnow()-IsoToDateTime(planta['cuervo']))}\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm"
+            alerta = f"🦅 ¡ATENCIÓN! una planta tiene un cuervo hace: {str(datetime.utcnow()-IsoToDateTime(planta['cuervo']))}\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm"
             data_print.append(alerta)
         if planta['need_wather'] != False: 
             cont2+=1
-            alerta = f" ¡{cont2}  ATENCIÓN! PLANTA SIN AGUA URGENTE\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
+            alerta = f" 💦💦¡{cont2}  ATENCIÓN! PLANTA SIN AGUA URGENTE\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
             data_print.append(alerta)
         if timedelta_hour_to_minute(planta['tiempo_cosecha']) <= 2: 
-            alerta = f" ¡ATENCIÓN! Tiempo de cosechar\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
+            alerta = f" 🌿¡ATENCIÓN! Tiempo de cosechar\nApurate\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
             data_print.append(alerta)
         if bandera_time_water_minutes == True:
-            alerta = f" ¡ATENCIÓN! una planta necesitará agua en: {str(time_water_minutes)} minutos\nApurate y ve a regarlas\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
+            alerta = f" ⏱¡ATENCIÓN! una planta necesitará agua en: {str(time_water_minutes)} minutos\nApurate y ve a regarlas\nhttps://marketplace.plantvsundead.com/farm#/farm\nTipo {planta['tipo']}"
             data_print.append(alerta)
     print('Working info')
     """ print(data_print) """
@@ -110,12 +110,12 @@ def messsage_info_general(bearer):
         except IndexError:
             tiempo_cosecha = '0'
         cont_plant+=1
-        m = f"<b>Planta: </b> {cont_plant} \n"        
-        m += f"<b>ID: </b> {data_data['_id']} \n"        
-        m += f"<b>Tiempo de cosecha: </b>  <code>{tiempo_cosecha}</code>  \n"
-        m += f"<b>Tiempo de vida de pot: </b>  <code>{dead_matera}</code>  \n"
-        m += f"<b>Tiempo agua: </b>  <code>{time_water}</code>  \n"
-        m += f"<b>Cuervo: </b>  <code>{cuervo}</code>  \n"
+        m = f"<b>🌳🌲: </b> {cont_plant} \n"
+        m += f"<b>🆔: </b> {data_data['_id']} \n"
+        m += f"<b>⏱ cosecha: </b>  <code>{tiempo_cosecha}</code>  \n"
+        m += f"<b>⏱☠ de Maceta: </b>  <code>{dead_matera}</code>  \n"
+        m += f"<b>⏱☠💧: </b>  <code>{time_water}</code>  \n"
+        m += f"<b>🦅: </b>  <code>{cuervo}</code>  \n"
         m += f"<b>¿Necesita agua? - </b>  <code>{data_data['needWater']}</code>  \n"
         a = data_data['plant']['iconUrl']           
         texto = texto+m+"\n"
